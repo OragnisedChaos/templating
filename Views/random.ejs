@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Your Random Number is : <%= rand  %></h1>
+    <!-- logic into tempate -->
+    <% if(rand % 2 == 0 ) { %>
+    <h2>This is a Even Number!</h2>
+    <% }  else { %>
+        <h2>Number is ODD!!</h2>
+    <% } %>
+</body>
+</html>
